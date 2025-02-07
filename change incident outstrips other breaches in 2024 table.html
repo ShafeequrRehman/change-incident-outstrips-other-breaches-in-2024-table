@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #1d1d25;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border-radius: 3px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            /* Add Background Image */
+            background-image: url('https://raw.githubusercontent.com/ShafeequrRehman/tableimage/f3fad32cbe8c0d2192d6393dbcd31ed4bfc02b9b/Group%20211.svg');
+            background-size: cover; /* Cover the entire table */
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            font-size: 0.7rem;
+            border-radius: 3px;
+            border: 1px solid #70707081;
+            background-color:#1d1d2520; /* Adding transparency to cells for visibility */
+           
+        }
+
+        th {
+            background-color: #333;
+        }
+
+        tr:nth-child(even) {
+            background-color: #1d1d25;
+                         }
+
+        .bar-container {
+            width: 100%;
+            background-color: #5555556b;
+            overflow: hidden;
+            border-radius: 3px;
+
+        }
+
+        .bar-value {
+            height: 30px;
+            border-radius: 3px;
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Data Breaches</th>
+                <th>People</th>
+                <th>Progress</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Change Healthcare</td>
+                <td>100,000,000</td>
+                <td>
+                    <div class="bar-container">
+                        <div class="bar-value" style="width: 100%; background-color:#00FFFF;"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Kaiser Foundation Health Plan</td>
+                <td>13,400,000</td>
+                <td>
+                    <div class="bar-container">
+                        <div class="bar-value" style="width: 13.4%; background-color:#00FFFF;"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Health Equity</td>
+                <td>4,300,000</td>
+                <td>
+                    <div class="bar-container">
+                        <div class="bar-value" style="width: 4.3%; background-color: #00FFFF;"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Concentra Health Services</td>
+                <td>3,998,163</td>
+                <td>
+                    <div class="bar-container">
+                        <div class="bar-value" style="width: 3.9%; background-color: #00FFFF;"></div>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Centers for Medicare and Medicaid Services</td>
+                <td>3,112,815</td>
+                <td>
+                    <div class="bar-container">
+                        <div class="bar-value" style="width: 3.1%; background-color: #00FFFF;"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Acadian Ambulance Services</td>
+                <td>2,896,985</td>
+                <td>
+                    <div class="bar-container">
+                        <div class="bar-value" style="width: 2.8%; background-color: #00FFFF;"></div>
+                    </div>
+                </td>
+                <tr>
+                    <td>Sav-Rx</td>
+                    <td>2,812,336</td>
+                    <td>
+                        <div class="bar-container">
+                            <div class="bar-value" style="width: 2.8%; background-color: #00FFFF;"></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>WebTPA Employer Services</td>
+                    <td>2,518,533</td>
+                    <td>
+                        <div class="bar-container">
+                            <div class="bar-value" style="width: 2.5%; background-color: #00FFFF;"></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Integris Health</td>
+                    <td>2,385,646</td>
+                    <td>
+                        <div class="bar-container">
+                            <div class="bar-value" style="width: 2.3%; background-color: #00FFFF;"></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Medical Managment Resource Group</td>
+                    <td>2,350,236</td>
+                    <td>
+                        <div class="bar-container">
+                            <div class="bar-value" style="width: 2.3%; background-color: #00FFFF;"></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Geisinger</td>
+                    <td>1,276,026</td>
+                    <td>
+                        <div class="bar-container">
+                            <div class="bar-value" style="width: 1.2%; background-color: #00FFFF;"></div>
+                        </div>
+                    </td>
+                </tr>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
